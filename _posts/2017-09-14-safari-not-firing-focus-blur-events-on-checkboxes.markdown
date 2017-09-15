@@ -9,7 +9,7 @@ While working on [legelisten.no](www.legelisten.no) I once wrote some javascript
 
 The reason? Safari did not fire the blur-event I was relying on when clicking the checkbox!
 
-This is what my code looked like:
+This is what my code looked like (using JQuery):
 
 {% highlight javascript %}
 form.find("input, select, textarea").on("blur focus keyup", function() {
